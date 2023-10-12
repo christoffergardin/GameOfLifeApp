@@ -1,0 +1,73 @@
+<div class="game-controls">
+    @if (!_isRunning)
+    {
+        <button @onclick="StartGame">Start</button>
+    }
+    else
+    {
+        <button @onclick="StopGame">Stop</button>
+    } 
+    <button @onclick="ResetGame">Reset</button>
+</div>
+
+
+<style>
+    .game-controls {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .game-controls button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #4CAF50; /* Green background */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 4px;
+        transition-duration: 0.4s; /* Transition effect */
+    }
+
+    .game-controls button:hover {
+        background-color: #45a049; /* Darker green on hover */
+    }
+</style>
+
+
+@code {
+    
+    //Binding, pass data from a parent to this child
+    [Parameter]
+    public EventCallback OnStart { get; set; }
+    
+    [Parameter]
+    public EventCallback OnStop { get; set; }
+    
+    [Parameter]
+    public EventCallback OnReset { get; set; }
+
+    private bool _isRunning = false;
+
+    private void StartGame()
+    {
+        _isRunning = true;
+        OnStart.InvokeAsync();
+    }
+
+    private void StopGame()
+    {
+        _isRunning = false;
+        OnStop.InvokeAsync();
+    }
+
+    private void ResetGame()
+    {
+        _isRunning = false;
+        OnReset.InvokeAsync();
+    }
+}

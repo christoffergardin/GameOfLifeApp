@@ -1,0 +1,47 @@
+﻿@page "/"
+@using System.Timers
+@inject IJSRuntime JSRuntime
+
+
+<GameBoard @ref="_gameBoard" />
+<GameControls OnStart="StartGame" OnStop="StopGame" OnReset="ResetGame" />
+
+@code {
+
+    private GameBoard _gameBoard;
+    private Timer _timer;
+
+    protected override void OnInitialized()
+    {
+        _timer = new Timer(500);
+        _timer.Elapsed += (sender, args) =>
+        {
+            _gameBoard.AdvanceToNextGeneration();
+            StateHasChanged();
+        };
+    }
+
+    private void StartGame()
+    {
+        _timer.Start();
+    }
+
+    private void StopGame()
+    {
+        _timer.Stop();
+    }
+
+    private void ResetGame()
+    {
+        _timer.Stop();
+        _gameBoard.ResetBoard();
+    }
+
+    public void Dispose()
+    {
+        _timer?.Dispose();
+    }
+
+}
+
+

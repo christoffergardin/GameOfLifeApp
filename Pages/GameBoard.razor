@@ -1,0 +1,77 @@
+@using GameOfLifeApp.Models
+
+<div class="game-board">
+    @for (int i = 0; i < Rows; i++)
+    {
+        var currentRow = i;  // Capture the current row value
+        <div class="game-row">
+            @for (int j = 0; j < Columns; j++)
+            {
+                var currentColumn = j;  // Capture the current column value
+                var cell = _board.GetCell(currentRow, currentColumn);
+                <div class="game-cell @(cell.IsAlive ? "alive" : "dead")" @onclick="() => ToggleCellState(currentRow, currentColumn)"></div>
+            }
+        </div>
+    }
+</div>
+
+<style>
+    .game-board {
+        display: grid;
+        grid-template-columns: repeat(@Columns, 20px);
+    }
+    .game-row {
+        display: contents;  
+    }
+    .game-cell {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+    .game-cell.alive {
+        background-color: deeppink;
+    }
+    .game-cell.dead {
+        background-color: white;
+    }
+</style>
+
+
+
+@code {
+    
+    private Board _board;
+    private const int Rows = 20;
+    private const int Columns = 20;
+
+    protected override void OnInitialized()
+    {
+        _board = new Board(Rows, Columns, new GameOfLifeRules());
+    }
+
+    private void ToggleCellState(int row, int column)
+    {
+        if (row < 0 || row >= Rows || column < 0 || column >= Columns)
+        {
+            Console.WriteLine($"Invalid coordinates: ({row}, {column})");
+            return;
+        }
+    
+        var cell = _board.GetCell(row, column);
+        _board.UpdateCellState(row, column, !cell.IsAlive);
+        StateHasChanged();
+    }
+    
+    public void AdvanceToNextGeneration()
+    {
+        _board.AdvanceToNextGeneration();
+        StateHasChanged();
+    }
+
+    public void ResetBoard()
+    {
+        _board = new Board(Rows, Columns, new GameOfLifeRules());
+        StateHasChanged();
+    }
+}
