@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp.csproj": {}
+    "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj": {}
   },
   "projects": {
-    "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp.csproj": {
+    "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp.csproj",
+        "projectUniqueName": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj",
         "projectName": "GameOfLifeApp",
-        "projectPath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp.csproj",
+        "projectPath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj",
         "packagesPath": "/Users/christoffergardin/.nuget/packages/",
-        "outputPath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/obj/",
+        "outputPath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/christoffergardin/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0-alpha.1, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[7.0.11, )"

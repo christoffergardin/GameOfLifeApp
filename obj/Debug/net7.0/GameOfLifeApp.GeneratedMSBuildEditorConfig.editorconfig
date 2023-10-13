@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = GameOfLifeApp
 build_property.RootNamespace = GameOfLifeApp
-build_property.ProjectDir = /Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/
+build_property.ProjectDir = /Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp
+build_property.MSBuildProjectDirectory = /Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/App.razor]
+[/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/Pages/GameBoard.razor]
+[/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/Pages/GameBoard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR2FtZUJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/Pages/GameControls.razor]
+[/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/Pages/GameControls.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR2FtZUNvbnRyb2xzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/Pages/Index.razor]
+[/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/Shared/MainLayout.razor]
+[/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/_Imports.razor]
+[/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

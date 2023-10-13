@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="7.0.0-alpha.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.11" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.11" PrivateAssets="all" />
   </ItemGroup>
@@ -17,6 +18,33 @@
     <_ContentIncludedByDefault Remove="GameOfLifeAppTests\GameOfLifeAppTests\obj\GameOfLifeAppTests.csproj.nuget.dgspec.json" />
     <_ContentIncludedByDefault Remove="GameOfLifeAppTests\GameOfLifeAppTests\obj\project.assets.json" />
     <_ContentIncludedByDefault Remove="GameOfLifeAppTests\GameOfLifeAppTests\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="GameOfLifeTests\obj\GameOfLifeTests.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="GameOfLifeTests\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="GameOfLifeTests\obj\project.packagespec.json" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Compile Remove="GameOfLifeTests\**" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <EmbeddedResource Remove="GameOfLifeTests\**" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <Content Remove="GameOfLifeTests\**" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <None Remove="GameOfLifeTests\**" />
   </ItemGroup>
 
 </Project>

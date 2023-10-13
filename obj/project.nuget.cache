@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "anyxPljVN6RXkBGIsfe23jn7SkBN3k3kTpunANqgLG1yxihbfvgHbJZmYy84TR0L8FBff0O50uhmuSbGMDq3XQ==",
+  "dgSpecHash": "2ZL9l7Vabu9yDcH5EtQbGF5O4f2fvzmYFLOw7Rz/zGtPFA5e5foZqUWSOckmMOet7iDjkHG7IAM9fOjV4/TfHQ==",
   "success": true,
-  "projectFilePath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp.csproj",
+  "projectFilePath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj",
   "expectedPackageFiles": [
+    "/Users/christoffergardin/.nuget/packages/fluentassertions/7.0.0-alpha.1/fluentassertions.7.0.0-alpha.1.nupkg.sha512",
     "/Users/christoffergardin/.nuget/packages/microsoft.aspnetcore.authorization/7.0.11/microsoft.aspnetcore.authorization.7.0.11.nupkg.sha512",
     "/Users/christoffergardin/.nuget/packages/microsoft.aspnetcore.components/7.0.11/microsoft.aspnetcore.components.7.0.11.nupkg.sha512",
     "/Users/christoffergardin/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.11/microsoft.aspnetcore.components.analyzers.7.0.11.nupkg.sha512",
@@ -28,7 +29,9 @@
     "/Users/christoffergardin/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/christoffergardin/.nuget/packages/microsoft.jsinterop/7.0.11/microsoft.jsinterop.7.0.11.nupkg.sha512",
     "/Users/christoffergardin/.nuget/packages/microsoft.jsinterop.webassembly/7.0.11/microsoft.jsinterop.webassembly.7.0.11.nupkg.sha512",
+    "/Users/christoffergardin/.nuget/packages/system.configuration.configurationmanager/4.4.0/system.configuration.configurationmanager.4.4.0.nupkg.sha512",
     "/Users/christoffergardin/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
+    "/Users/christoffergardin/.nuget/packages/system.security.cryptography.protecteddata/4.4.0/system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
     "/Users/christoffergardin/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/christoffergardin/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
     "/Users/christoffergardin/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/7.0.11/microsoft.netcore.app.runtime.mono.browser-wasm.7.0.11.nupkg.sha512"
