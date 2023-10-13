@@ -3,8 +3,20 @@
 @inject IJSRuntime JSRuntime
 
 
-<GameBoard @ref="_gameBoard" />
-<GameControls OnStart="StartGame" OnStop="StopGame" OnReset="ResetGame" />
+<div class="index-container">
+    <GameBoard @ref="_gameBoard" />
+    <GameControls OnStart="StartGame" OnStop="StopGame" OnReset="ResetGame" />
+</div>
+
+<style>
+    .index-container {
+        padding: 20px;
+        background: linear-gradient(135deg, #f3f3f3, #e0e0e0);  
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+    }
+</style>
 
 @code {
 

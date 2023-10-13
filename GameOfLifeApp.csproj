@@ -13,4 +13,10 @@
 
 
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="GameOfLifeAppTests\GameOfLifeAppTests\obj\GameOfLifeAppTests.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="GameOfLifeAppTests\GameOfLifeAppTests\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="GameOfLifeAppTests\GameOfLifeAppTests\obj\project.packagespec.json" />
+  </ItemGroup>
+
 </Project>

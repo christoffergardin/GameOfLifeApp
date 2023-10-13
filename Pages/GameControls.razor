@@ -1,13 +1,13 @@
 <div class="game-controls">
     @if (!_isRunning)
     {
-        <button @onclick="StartGame">Start</button>
+        <button class="start-btn" @onclick="StartGame">Start</button>
     }
     else
     {
-        <button @onclick="StopGame">Stop</button>
+        <button class="stop-btn" @onclick="StopGame">Stop</button>
     } 
-    <button @onclick="ResetGame">Reset</button>
+    <button class="reset-btn" @onclick="ResetGame">Reset</button>
 </div>
 
 
@@ -20,21 +20,49 @@
 
     .game-controls button {
         margin: 0 10px;
-        padding: 10px 20px;
-        font-size: 16px;
+        padding: 12px 24px; 
+        font-size: 18px; 
         cursor: pointer;
-        background-color: #4CAF50; /* Green background */
         border: none;
         color: white;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         border-radius: 4px;
-        transition-duration: 0.4s; /* Transition effect */
+        transition: all 0.4s;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); 
     }
 
     .game-controls button:hover {
-        background-color: #45a049; /* Darker green on hover */
+        transform: scale(1.05); 
+    }
+
+    .game-controls button:active {
+        transform: scale(0.95);
+    }
+
+    .start-btn {
+        background-color: #4CAF50; 
+    }
+
+    .start-btn:hover {
+        background-color: #45a049; 
+    }
+
+    .stop-btn {
+        background-color: #f44336; 
+    }
+
+    .stop-btn:hover {
+        background-color: #d32f2f; 
+    }
+
+    .reset-btn {
+        background-color: #0099cc;
+    }
+
+    .reset-btn:hover {
+        background-color: #0077b3; 
     }
 </style>
 
