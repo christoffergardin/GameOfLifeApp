@@ -6850,11 +6850,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeTests/GameOfLifeTests.csproj",
+      "projectUniqueName": "/Users/christoffergardin/Desktop/Forefront/TechEvo/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeTests/GameOfLifeTests.csproj",
       "projectName": "GameOfLifeTests",
-      "projectPath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeTests/GameOfLifeTests.csproj",
+      "projectPath": "/Users/christoffergardin/Desktop/Forefront/TechEvo/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeTests/GameOfLifeTests.csproj",
       "packagesPath": "/Users/christoffergardin/.nuget/packages/",
-      "outputPath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeTests/obj/",
+      "outputPath": "/Users/christoffergardin/Desktop/Forefront/TechEvo/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/christoffergardin/.nuget/NuGet/NuGet.Config"
@@ -6869,8 +6869,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj": {
-              "projectPath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj"
+            "/Users/christoffergardin/Desktop/Forefront/TechEvo/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj": {
+              "projectPath": "/Users/christoffergardin/Desktop/Forefront/TechEvo/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2ZL9l7Vabu9yDcH5EtQbGF5O4f2fvzmYFLOw7Rz/zGtPFA5e5foZqUWSOckmMOet7iDjkHG7IAM9fOjV4/TfHQ==",
+  "dgSpecHash": "PjSRjEs5oZudQVkaVJpQxoQbMU4MK12PTluYY/rs1pVugQD+wUktnBugxHWL/8SUhCEoFDP50lpoLyMvEZqwJg==",
   "success": true,
-  "projectFilePath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj",
+  "projectFilePath": "/Users/christoffergardin/Desktop/Forefront/TechEvo/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj",
   "expectedPackageFiles": [
     "/Users/christoffergardin/.nuget/packages/fluentassertions/7.0.0-alpha.1/fluentassertions.7.0.0-alpha.1.nupkg.sha512",
     "/Users/christoffergardin/.nuget/packages/microsoft.aspnetcore.authorization/7.0.11/microsoft.aspnetcore.authorization.7.0.11.nupkg.sha512",

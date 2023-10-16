@@ -1987,11 +1987,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj",
+      "projectUniqueName": "/Users/christoffergardin/Desktop/Forefront/TechEvo/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj",
       "projectName": "GameOfLifeApp",
-      "projectPath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj",
+      "projectPath": "/Users/christoffergardin/Desktop/Forefront/TechEvo/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeApp.csproj",
       "packagesPath": "/Users/christoffergardin/.nuget/packages/",
-      "outputPath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/obj/",
+      "outputPath": "/Users/christoffergardin/Desktop/Forefront/TechEvo/CiP/GameOfLifeApp/GameOfLifeApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/christoffergardin/.nuget/NuGet/NuGet.Config"

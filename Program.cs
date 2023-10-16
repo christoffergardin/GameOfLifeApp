@@ -1,8 +1,6 @@
 using GameOfLifeApp.Models;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
-
-
 namespace GameOfLifeApp;
 
 public class Program
@@ -14,7 +12,6 @@ public class Program
 
         builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
         
-        // Registering the Game of Life rules as a service
         builder.Services.AddSingleton<IGameRules, GameOfLifeRules>();
 
         await builder.Build().RunAsync();

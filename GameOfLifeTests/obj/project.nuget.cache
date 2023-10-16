@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SptSihCn9SoBAHuftnycQjn3PZWU+pKDcIt+Q93MXRLvWZcryxM4FpekjzRfbqFrlEGyk1rNSi5uzbLeesn33A==",
+  "dgSpecHash": "z9Vos2nccxTvb7wO5IifIL99GY9L6M4s2dK5aIn96NE7duOlhaOmfvbFKkYM8OsMh6dMrRPfE+iC9D/DPNvh9A==",
   "success": true,
-  "projectFilePath": "/Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeTests/GameOfLifeTests.csproj",
+  "projectFilePath": "/Users/christoffergardin/Desktop/Forefront/TechEvo/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeTests/GameOfLifeTests.csproj",
   "expectedPackageFiles": [
     "/Users/christoffergardin/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
     "/Users/christoffergardin/.nuget/packages/fluentassertions/7.0.0-alpha.1/fluentassertions.7.0.0-alpha.1.nupkg.sha512",

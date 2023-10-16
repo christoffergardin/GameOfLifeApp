@@ -15,7 +15,7 @@ public class Board
         _cellGrid = new Cell[rows, columns];
         InitializeCells();
     }
-
+    
     private void InitializeCells()
     {
         ForEachCell((i, j) => _cellGrid[i, j] = new Cell(false));
@@ -40,8 +40,8 @@ public class Board
         {
             for (int j = 0; j < _columns; j++)
             {
-                action(i, j); //This makes the code the same for the ForEachCell, but the action can differ
-                // In this way we do not need to create different methods.
+                action(i, j); 
+                
             }
         }
     }

@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GameOfLifeTests
-build_property.ProjectDir = /Users/christoffergardin/Desktop/forefront/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeTests/
+build_property.ProjectDir = /Users/christoffergardin/Desktop/Forefront/TechEvo/CiP/GameOfLifeApp/GameOfLifeApp/GameOfLifeTests/
